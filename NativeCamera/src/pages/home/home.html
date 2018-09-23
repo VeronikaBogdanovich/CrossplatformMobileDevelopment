@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Camera
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <button ion-button (click)="takePicture()">
+    Take a Picture
+  </button>
+  <button ion-button (click)="takeFromG()">
+    Take from the Gallery
+  </button>
+<p>
+   <img [src]="furi" *ngIf="furi"/>
+</p>
+</ion-content>

@@ -1,0 +1,19 @@
+{
+  "persons":[
+    {"id":0,
+    "name":"Veronika",
+    "job":"engineer",
+    "salary":1500
+    },
+    {"id":0,
+      "name":"Ann",
+      "job":"engineer",
+      "salary":1500
+    },
+    {"id":0,
+      "name":"Artem",
+      "job":"engineer",
+      "salary":1000
+    }
+  ]
+}

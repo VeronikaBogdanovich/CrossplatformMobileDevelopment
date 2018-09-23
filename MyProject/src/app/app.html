@@ -1,0 +1,25 @@
+<ion-menu [content]="content">
+    <ion-header>
+
+    </ion-header>
+
+    <ion-content class="myBg">
+        <img src="./assets/imgs/shop.png" style="height: 28%; width: 100%"/>
+        <ion-list no-lines>
+            <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" color="clmain">
+                <ion-icon item-left [name]="p.icon_name" item-left color="light"></ion-icon>
+                {{p.title}}
+            </button>
+        </ion-list>
+        <img src="./assets/imgs/shops.png" />
+    </ion-content>
+</ion-menu>
+
+   <!--<ion-content class="myAu" >-->
+            <!--<ion-row><ion-list no-lines><button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" color="clmain">-->
+                <!--{{p.title}}-->
+   <!--</button></ion-list></ion-row>-->
+    <!--</ion-content>-->
+
+
+<ion-nav [root]="rootPage" #content></ion-nav>

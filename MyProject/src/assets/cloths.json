@@ -1,0 +1,114 @@
+{
+  "Магазины одежды":[
+    {
+    "id":1,
+    "name":"Bershka",
+    "comment": 
+        {
+          "rating": 5,
+          "category": "Магазин одежды"
+        },
+         "adress":{
+            "first":"улица Московская 9",
+            "second":"улица Московская 9"
+        },
+            "tel": 
+
+        {
+            "first":"8 017 200-21-28",
+            "second":"8 017 200-21-28"
+        },
+        "url":"https://www.bershka.com/by/",
+            "img": "./assets/imgs/ber.jpg",
+            "time":
+            {
+            	"open":"09:00",
+            	"close":"22:00"
+            }
+    },
+    {
+    "id":2,
+    "name":"Pull&Bear",
+    "comment": 
+        {
+          "rating": 4.5,
+          "category": "Магазин одежды"
+        },
+         "adress":{
+            "first":"улица Московская 9",
+            "second":"улица Московская 9"
+        },
+            "tel": 
+
+        {
+            "first":"8 017 200-21-29",
+            "second":"8 017 200-21-29"
+        },
+        "url":"https://www.pullandbear.com/by/",
+            "img": "./assets/imgs/pb.jpg",
+            "time":
+            {
+            	"open":"09:00",
+            	"close":"22:00"
+            }
+    },
+    {
+    "id":3,
+    "name":"Stradivarius",
+    "comment": 
+        {
+          "rating": 4.3,
+          "category": "Магазин одежды"
+        }, 
+        "adress":{
+            "first":"улица Московская 9",
+            "second":"улица Московская 9"
+        },
+            "tel": 
+
+        {
+            "first":"8 017 200-21-27",
+            "second":"8 017 200-21-27",
+            "third":"8 017 200-21-27",
+            "fourth":"8 017 200-21-27"
+        },
+        "url":"https://www.stradivarius.com/by/",
+            "img": "./assets/imgs/str.jpg",
+            "time":
+            {
+            	"open":"09:00",
+            	"close":"22:00"
+            }
+    },
+    {
+    "id":5,
+    "name":"Sister's",
+    "comment": 
+        {
+          "rating": 4.4,
+          "category": "Магазин одежды"
+        },
+         "adress":{
+            "first":"улица Бобруйская, 6, ТРЦ Галилео, 3 этаж",
+            "second":"улица Бобруйская, 6, ТРЦ Галилео, 3 этаж",
+            "third":"улица Бобруйская, 6, ТРЦ Галилео, 3 этаж",
+            "fourth":"улица Бобруйская, 6, ТРЦ Галилео, 3 этаж"
+        },
+            "tel": 
+
+        {
+            "first":"8 044 744-76-70",
+            "second":"8 044 744-76-70",
+            "third":"8 044 744-76-70",
+            "fourth":"8 044 744-76-70"
+        },
+            "url":"http://www.artterritory.by/",
+            "img": "./assets/imgs/sis.jpg",
+            "time":
+            {
+            	"open":"09:00",
+            	"close":"22:00"
+            }
+    }
+  ]
+}

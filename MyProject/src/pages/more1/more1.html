@@ -1,0 +1,57 @@
+<!--
+  Generated template for the More1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="clmain">
+    <ion-title>Больше</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h1 style="text-align: center; font-weight: bold; font-size: 25px; color: #3945ab ">{{s.name}}</h1>
+   <h4 style="text-align: center;color: #3953ab; font-size: 16px; margin-top: -5px">{{s.comment.category}}</h4>
+    <img src="{{s.img}}" style=" width: 100%">
+  <ion-row>
+      <ion-col col-6><h6 style="color: #3969ab; text-align: center; font-size: 15px"> Открывается:{{s.time.open}}</h6></ion-col>
+      <ion-col col-6><h6 style="color: #3969ab; text-align: center; font-size: 15px">Закрывается:{{s.time.close}}</h6></ion-col>
+  </ion-row>
+      <h4 style="color:  #3950ab; text-align: center; margin-top: -5px; font-size: 16px">Рейтинг магазина: {{s.comment.rating}}</h4>
+  <h5 style="color: #3969ab;text-align: center">Сайт магазина: <a href="{{s.url}}">{{s.url}}</a> </h5>
+<h4 style="font-size: 18px; color: #283593; text-align: center">Адреса магазинов и телефоны:</h4>
+  <ion-row>
+  <ion-col col-6>
+    <h4 style="font-size: 16px; color: #283593">{{s.adress.first}}</h4>
+  </ion-col>
+  <ion-col col-6>
+    <h4 style="font-size: 16px; color: #3949ab; text-align: right ">{{s.tel.first}}</h4>
+  </ion-col>
+  <ion-col col-6>
+    <h4 style="font-size: 16px; color: #283593">{{s.adress.second}}</h4>
+  </ion-col>
+  <ion-col col-6>
+    <h4 style="font-size: 16px; color: #3949ab; text-align: right">{{s.tel.second}}</h4>
+  </ion-col>
+  <ion-col col-6>
+  <h4 style="font-size: 16px; color: #283593">{{s.adress.third}}</h4>
+  </ion-col>
+  <ion-col col-6>
+    <h4 style="font-size: 16px; color: #3949ab; text-align: right">{{s.tel.third}}</h4>
+  </ion-col>
+  <ion-col col-6>
+  <h4 style="font-size: 16px; color: #283593">{{s.adress.fourth}}</h4>
+  </ion-col>
+  <ion-col col-6>
+    <h4 style="font-size: 16px; color: #3949ab; text-align: right">{{s.tel.fourth}}</h4>
+  </ion-col>
+</ion-row>
+    <!--<label (click)="doAdd()" style="color: #283593; margin-left: 14%">-->
+      <!--<ion-icon name="add-circle" ></ion-icon>-->
+      <!--<b style="font-size: 18px">Добавить комментарий</b>-->
+    <!--</label>-->
+</ion-content>

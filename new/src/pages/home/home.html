@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-item>
+  <ion-input [(ngModel)]="inputtext" placeholder="Type your value"></ion-input>
+</ion-item>
+  <button ion-button (click)="saveDate()" >Save Data</button>
+  <ion-list *ngFor="let d of data">
+    <h1>{{d}}</h1>
+  </ion-list>
+</ion-content>
